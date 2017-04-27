@@ -1,0 +1,389 @@
+html,body
+  {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  html
+  {
+    padding-top: 50px;
+
+  }
+
+  #home-background-image
+  {
+    width:100%;
+    height:100%;
+  }
+
+  .navbar
+  {
+    margin-bottom:0px;
+    background-color: transparent;
+    border:none;
+  }
+
+  #navigation-bar a
+  {
+    color: red;
+    font-size:18px;
+  }
+
+  .navbar-default a.navbar-brand
+  {
+    color:#c20909;
+    font-size:30px;
+    font-family: 'Monotype Corsiva', cursive;
+    font-weight:bold;
+    text-shadow: 1px 1px 0px black;
+  }
+
+  .navbar-fixed-top .navbar-collapse
+  {
+    max-height: 340px;
+    margin-top: -50px;
+  }
+
+  #home
+  {
+    position:relative;
+    height:400px;
+    margin-top:0px;
+  }
+
+  #home .container
+  {
+    position:absolute;
+    margin-top:-260px;
+    width:100%;
+  }
+
+  #home h1
+  {
+    color:#910505;
+    font-size: 100px;
+    font-family: 'Monotype Corsiva',cursive;
+    font-weight:100;
+    letter-spacing:15px;
+    box-shadow: 0 0px 1px 1px black;
+    text-shadow: 7px -8px 4px black;
+    margin-top: -90px;
+    margin-bottom: 70px;
+  }
+
+  #home h2
+  {
+    color:#910505;
+  }
+
+  .heading-line
+  {
+    width:450px;
+    border:2px solid #910505;
+  }
+
+  #home h2
+  {
+    color:#910505;
+  }
+
+  .scroll-icon
+  {
+    margin-top: -5px;
+  }
+
+  .scroll-icon a
+  {
+    font-size:30px;
+    color:#7c0303;
+    border:1px solid blue;
+    padding:10px 10px 1px 10px;
+    border-radius:50%;
+    margin-top: -20px;
+  }
+
+  section
+  {
+    min-height:600px;
+    margin-top:50px;
+    margin-bottom:-20px;
+  }
+
+  .about-me
+  {
+    margin-top: -360px;
+
+  }
+
+  .about-me-image
+  {
+    width:100%;
+    height:100%;
+  }
+
+  p
+  {
+    font-size: 25px;
+    color:#742935;
+    text-align: center;
+    margin-top:20px;
+
+  }
+
+  .row
+  {
+    display: block;
+    margin-top: 0px;
+    color:#850e0e;
+  }
+
+  .text-grey
+  {
+    margin-right:20px;
+  }
+
+  #Gallery img
+  {
+    margin-bottom: 30px;
+  }
+
+  #Gallery img:hover
+  {
+    opacity: 1;
+    height: 500px;
+    zoom:1.5;
+
+  }
+
+  .audio-image
+  {
+    height:300px;
+    width: 300px;
+  }
+
+  .Video-Clips
+  {
+    margin-bottom: 50px;
+
+  }
+  .video-image
+  {
+    height:240px;
+    width: 300px;
+  }
+
+  .family-img
+  {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid #9e0404;
+    border-radius: 50%;
+  }
+
+  .about-family
+  {
+    color: #910505;
+    font-size: 18px;
+    padding:0px;
+  }
+
+  .family-heading
+  {
+    margin-top:10px;
+  }
+
+  .family-social-links a
+  {
+    font-size: 18px;
+    color: red;
+  }
+
+  .family-social-links a:hover
+  {
+    color:blue;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .family-horizontal-line
+  {
+    border-top: 2px solid grey;
+
+  }
+
+  .fa-twitter:before
+  {
+    content:"\f099";
+  }
+
+  .fa-facebook-square:before
+  {
+    content: "\f082";
+  }
+
+  .fa-instagram:before
+  {
+    content: "\f16d ";
+  }
+
+  .footer-icons a:hover
+  {
+    color:blue;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .footer-icons
+  {
+    letter-spacing: 10;
+  }
+
+  @media (max-width:500px)
+  {
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
+    {
+      margin-right: -15px;
+      margin-left: -15px;
+      margin-top: -50px;
+    }
+
+    #home h1
+    {
+      font-size: 25px;
+      margin-top: 158px;
+      margin-bottom: -20px;
+    }
+
+    .heading-line
+    {
+      width:250px;
+      border:2px solid #910505;
+    }
+
+    #home h2
+    {
+      font-size:14px;
+    }
+
+    .scroll-icon a
+    {
+      font-size: 15px;
+    }
+
+    .scroll-icon
+    {
+    margin-top: 0px;
+    }
+    #Video-image
+    {
+      padding:20px;
+    }
+
+    h4 {
+    font-size: 18px;
+    padding: 20px;
+}
+
+    .about-contact
+    {
+      margin-bottom:20px;
+
+    }
+
+    .font-responsive-h1
+    {
+      font-size: 20px;
+    }
+  }
+
+  nav.navbar-default #navigation-bar.navbar-KRITIKA-SHARMA
+  {
+    margin-left:-10px;
+  }
+
+  footer
+  {
+    background-color:#737272;
+    margin-top:30px;
+    padding:20px;
+
+  }
+
+  .footer-links li, .footer-icons li
+  {
+    display:inline-block;
+  }
+
+  ol, ul
+  {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: -50px;
+  }
+
+  element.style
+  {
+    text-align: left;
+    margin-left: -60px;
+  }
+
+  .footer-links li a, .footer-icons li a
+  {
+    color:#850e0e;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .footer-links li a:hover, .footer-icons li a:hover
+  {
+    text-decoration: none;
+  }
+
+  footer.footer-center-content
+  {
+    color: white;
+    text-align: center;
+  }
+
+  .white-content
+  {
+    color: white;
+  }
+
+  .contact-form-email
+  {
+    background-color: transparent;
+  }
+
+  button
+  {
+    background:#265a88;
+    color: white;
+    width: 100px;
+  }
+
+  .button {
+    background: #265a88;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 20%;
+  }
+
+  .contact-form
+  {
+    margin-top: 40px;
+  }
+
+  /*maps*/
+
+
+  #map
+  {
+    height: 400px;
+    width: 100%;
+  }
