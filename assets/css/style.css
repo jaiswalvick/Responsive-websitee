@@ -230,6 +230,11 @@ html,body
     content: "\f16d ";
   }
 
+  .fa-google-plus:before
+  {
+    content: "\f0d5 ";
+   }
+
   .footer-icons a:hover
   {
     color:blue;
